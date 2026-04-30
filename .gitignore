@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated local outputs can be recreated by running milestone scripts.
+results/*.pt
+data/sample_crop_dataset/
+data/sample_crop_dataset_synthetic/
+
+# Keep small documented result summaries in GitHub.
+!results/milestone1_preliminary_results.md
