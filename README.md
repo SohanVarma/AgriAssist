@@ -3,7 +3,7 @@
 ## Problem Summary
 Farmers often struggle to identify crop diseases early and receive reliable, region-specific treatment advice. Existing AI tools usually stop at image classification and do not provide grounded, localized, or safety-aware recommendations.
 
-AgriAssist is a milestone-1 prototype for a future multimodal GenAI system that combines:
+AgriAssist is a prototype for a multimodal GenAI system that combines:
 
 - crop disease image classification,
 - synthetic rare-disease image generation for data scarcity,
@@ -11,15 +11,15 @@ AgriAssist is a milestone-1 prototype for a future multimodal GenAI system that 
 - India-specific localization,
 - ethical safety disclaimers and confidence reporting.
 
-## Milestone 1 Required Deliverables
+## Project Components
 
-- **Domain research note submitted (1 page):** `domain_note.md` / `domain_note.pdf`
-- **Data pipeline working and data loaded:** `src/02_data_pipeline.py`
-- **Initial model running with preliminary results:** `src/03_train_initial_model.py`
+- **Domain research note:** `domain_note.md` / `domain_note.pdf`
+- **Data pipeline:** `src/02_data_pipeline.py`
+- **Initial disease classification model:** `src/03_train_initial_model.py`
+- **RAG-style advisory demo:** `src/04_rag_advisory_demo.py`
+- **Synthetic rare-disease data demo:** `src/05_synthetic_data_demo.py`
 
-## Milestone 1 Evidence
-
-### Data pipeline working and data loaded
+## Data Pipeline
 Run:
 ```bash
 python3 src/01_create_sample_dataset.py
@@ -35,7 +35,7 @@ results/train_metadata.csv
 results/val_metadata.csv
 ```
 
-### Initial model running with preliminary results
+## Model Training
 Run:
 ```bash
 python3 src/03_train_initial_model.py
@@ -71,7 +71,7 @@ source .venv/bin/activate       # Mac/Linux
 pip install -r requirements.txt
 ```
 
-## Run Full Milestone 1 Demo
+## Run Full Demo
 ```bash
 python3 src/01_create_sample_dataset.py
 python3 src/02_data_pipeline.py
@@ -91,8 +91,8 @@ Generated files are saved in `results/`:
 - `sample_advisory.md`
 - `synthetic_generation_summary.json`
 
-## Final Evaluation Plan
-For the final version, this prototype will be extended to:
+## Future Improvements
+This prototype can be extended to:
 
 - use PlantVillage or field crop disease datasets,
 - train a stronger CNN/ViT classifier,
