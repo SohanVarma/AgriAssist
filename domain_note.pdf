@@ -1,0 +1,88 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2670 >>
+stream
+BT
+/F1 15 Tf
+72 790 Td
+(AgriAssist: Multimodal Crop Disease Diagnosis and Localized Advisory System) Tj
+/F1 9.2 Tf
+0 -28 Td
+(Motivation: Agriculture is a critical sector in India, and farmers need timely crop-health decisions to) Tj
+0 -13 Td
+(protect yield and income. Crop diseases spread quickly, while access to expert diagnosis is limited in) Tj
+0 -13 Td
+(many rural areas.) Tj
+0 -17 Td
+(Real Problem: Farmers struggle to identify crop diseases from visual symptoms and often receive generic) Tj
+0 -13 Td
+(advice that may not match crop, disease severity, or region. Existing tools often stop at image) Tj
+0 -13 Td
+(classification and do not provide grounded, localized, or safety-aware treatment support.) Tj
+0 -17 Td
+(Who It Affects: Small and marginal farmers, agricultural extension workers, agri-tech advisory platforms,) Tj
+0 -13 Td
+(and government agricultural support programs are directly affected. Delayed or incorrect action can) Tj
+0 -13 Td
+(reduce yield and increase input costs.) Tj
+0 -17 Td
+(Why Existing Solutions Fall Short: Most crop disease systems classify an uploaded leaf image but do not) Tj
+0 -13 Td
+(retrieve verified agricultural guidance, explain confidence, or adapt recommendations to Indian regional) Tj
+0 -13 Td
+(conditions. Models trained on controlled datasets may fail on noisy field images and rare disease) Tj
+0 -13 Td
+(classes.) Tj
+0 -17 Td
+(Research Gap: There is a gap for an integrated agricultural AI system that combines multimodal image) Tj
+0 -13 Td
+(diagnosis, RAG-based advisory generation, synthetic data generation for rare diseases, India-specific) Tj
+0 -13 Td
+(localization, and ethical safeguards.) Tj
+0 -17 Td
+(Proposed Approach: AgriAssist will use a vision model to detect crop disease and provide a confidence) Tj
+0 -13 Td
+(score. A retrieval module will search agricultural knowledge sources. An LLM advisory module will) Tj
+0 -13 Td
+(generate farmer-friendly treatment and prevention steps. A localization layer will adapt advice based on) Tj
+0 -13 Td
+(Indian region and crop conditions. A synthetic data module will use diffusion-based generation in the) Tj
+0 -13 Td
+(final version to create rare disease images and improve classifier robustness. An ethics layer will) Tj
+0 -13 Td
+(display confidence, limitations, and a recommendation to consult experts before chemical use.) Tj
+0 -17 Td
+(Justification: The approach connects the technical model to a real agricultural problem. Multimodal AI) Tj
+0 -13 Td
+(supports diagnosis from images, RAG grounds advice in domain knowledge, generative models address rare) Tj
+0 -13 Td
+(disease data scarcity, and the ethics layer improves responsible use.) Tj
+0 -17 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3033
+%%EOF

@@ -1,0 +1,4 @@
+image_path,label,source
+data/sample_crop_dataset/healthy_leaf/healthy_leaf_039.png,healthy_leaf,milestone1_synthetic_sample
+data/sample_crop_dataset/leaf_blight/leaf_blight_039.png,leaf_blight,milestone1_synthetic_sample
+data/sample_crop_dataset/leaf_spot/leaf_spot_039.png,leaf_spot,milestone1_synthetic_sample

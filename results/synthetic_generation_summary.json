@@ -1,0 +1,6 @@
+{
+  "component": "synthetic rare disease data demo",
+  "final_plan": "replace augmentation demo with a diffusion-based generator",
+  "synthetic_images_created": 10,
+  "target_class": "leaf_spot"
+}

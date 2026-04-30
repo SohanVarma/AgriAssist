@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "total_images_loaded": 120,
+  "train_images": 96,
+  "validation_images": 24,
+  "classes": ["healthy_leaf", "leaf_blight", "leaf_spot"],
+  "class_distribution": {
+    "healthy_leaf": 40,
+    "leaf_blight": 40,
+    "leaf_spot": 40
+  },
+  "status": "Data pipeline working and data loaded"
+}
